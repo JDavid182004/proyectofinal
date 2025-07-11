@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Digital - Falabella Ica</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HERO CON IMAGEN -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="display-4">Falabella - Sede Ica</h1>
+    </div>
+  </header>
+<!-- SLIDER DE PROMOCIONES -->
+<div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1: ELECTRO -->
+    <div class="carousel-item active position-relative">
+      <div class="position-absolute top-0 start-0 bg-dark text-white px-3 py-1 rounded-bottom">
+        Electro
+      </div>
+      <div class="d-flex justify-content-center gap-3 px-4 py-3">
+        <img src="img/carrusel1.webp" class="img-fluid rounded" style="width: 32%;" alt="Electro 1">
+        <img src="img/carrusel2.webp" class="img-fluid rounded" style="width: 32%;" alt="Electro 2">
+        <img src="img/carrusel3.webp" class="img-fluid rounded" style="width: 32%;" alt="Electro 3">
+      </div>
+    </div>
+
+    <!-- Slide 2: HOGAR -->
+    <div class="carousel-item position-relative">
+      <div class="position-absolute top-0 start-0 bg-dark text-white px-3 py-1 rounded-bottom">
+        Hogar
+      </div>
+      <div class="d-flex justify-content-center gap-3 px-4 py-3">
+        <img src="img/segundo..webp" class="img-fluid rounded" style="width: 32%;" alt="HOGAR 1">
+        <img src="img/segundo2.webp" class="img-fluid rounded" style="width: 32%;" alt="HOGAR 2">
+        <img src="img/segundo3.webp" class="img-fluid rounded" style="width: 32%;" alt="HOGAR 3">
+      </div>
+    </div>
+
+    <!-- Slide 3: MODA -->
+    <div class="carousel-item position-relative">
+      <div class="position-absolute top-0 start-0 bg-dark text-white px-3 py-1 rounded-bottom">
+        Moda
+      </div>
+      <div class="d-flex justify-content-center gap-3 px-4 py-3">
+        <img src="img/moda1.webp" class="img-fluid rounded" style="width: 32%;" alt="MODA 1">
+        <img src="img/moda2.webp" class="img-fluid rounded" style="width: 32%;" alt="MODA 2">
+        <img src="img/moda3.webp" class="img-fluid rounded" style="width: 32%;" alt="MODA 3">
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  <!-- MENÚ DE NAVEGACIÓN -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+          <li class="nav-item"><a class="nav-link" href="marketing.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Integrantes</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- SECCIÓN DE PRODUCTOS DESTACADOS -->
+  <section class="container py-5" id="ofertas">
+    <h2 class="section-title text-center text-danger fw-bold">Ofertas Destacadas</h2>
+
+    <!-- Estilos directos para efecto hover -->
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="img/televidor lg.webp" alt="TV LG" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Smart TV LG 55"</h5>
+            <p class="card-text">S/ 1,369.00 <br><small class="text-muted">Antes: S/ 1,999.00</small></p>
+            <a href="https://www.falabella.com.pe/falabella-pe/product/142233679/TELEVISOR-SMART-TV-LG-55-55UT7300-PU-LED-4K-UHD-CON-THINQ-AI-CONTROL-MAGIC/142233680" class="btn btn-danger">Comprar ahora</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="img/zapatilla hombre.webp" alt="Zapatillas Adidas" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Zapatillas Adidas Hombre</h5>
+            <p class="card-text">S/ 159.20 <br><small class="text-muted">Envío gratis</small></p>
+            <a href="https://www.falabella.com.pe/falabella-pe/product/20434197/Zapatillas-Running-Hombre-Adidas-Galaxy-7/20434202" class="btn btn-danger">Comprar ahora</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="img/silla.webp" alt="Silla de oficina" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Silla de Oficina Ergonométrica</h5>
+            <p class="card-text">S/ 199.00 <br><small class="text-muted">Stock limitado</small></p>
+            <a href="https://www.falabella.com.pe/falabella-pe/product/144745875/Silla-de-Oficina-Gerencial-Vertex-Pro/144745876" class="btn btn-danger">Comprar ahora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCIÓN DE BENEFICIOS -->
+  <section class="section-gray" id="beneficios">
+    <div class="container py-5">
+      <h2 class="section-title">Beneficios de Comprar en Falabella</h2>
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <div class="icon-box">
+            <span>🚚</span>
+            <h5>Envíos a todo el Perú</h5>
+            <p>Rápidos, seguros y con seguimiento en tiempo real desde nuestra app o web.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box">
+            <span>💳</span>
+            <h5>Pago con CMR y más</h5>
+            <p>Financia tus compras en cuotas sin intereses y accede a beneficios exclusivos.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box">
+            <span>🔄</span>
+            <h5>Fácil cambio y devolución</h5>
+            <p>Compra con confianza: 30 días para devolver o cambiar en tienda o por delivery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FINAL INSTITUCIONAL -->
+  <footer class="footer-corporativo text-white" id="contacto">
+    <div class="container py-5">
+      <div class="row">
+
+        <!-- Columna 1: Campus o Sedes -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Sedes Falabella</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Ica</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Contacto e Integrantes -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Contáctanos</h5>
+
+          <p><i class="bi bi-person-fill"></i> Jose Ormeno Ramos<br>
+            <span class="small">Email:</span> <a href="mailto:Josec.OR@upsjb.edu.pe">Josec.OR@upsjb.edu.pe</a>
+          </p>
+
+          <p><i class="bi bi-person-fill"></i> Jhonatan Soto Astocaza<br>
+            <span class="small">Email:</span> <a href="mailto:Jhonatand.SA@upsjb.edu.pe">Jhonatand.SA@upsjb.edu.pe</a>
+          </p>
+
+          <p><i class="bi bi-person-fill"></i> Piero Ramos Garay<br>
+            <span class="small">Email:</span> <a href="mailto:Pieroj.ramos@upsjb.edu.pe">Pieroj.ramos@upsjb.edu.pe</a>
+          </p>
+        </div>
+
+        <!-- Columna 3: Horario de atención -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold"><i class="bi bi-calendar-check"></i> Horario de atención</h5>
+          <p><strong>Consultas:</strong><br>Lun - Sáb: 8:30 a.m. a 8:00 p.m.</p>
+          <p><strong>Soporte Técnico:</strong><br>Lun - Vie: 9:00 a.m. a 6:00 p.m.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white text-center py-3">
+    <p>&copy; 2025 - Proyecto Académico | Falabella Ica - Taller Web</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
